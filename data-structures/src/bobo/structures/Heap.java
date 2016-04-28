@@ -6,11 +6,11 @@ public interface Heap {
     MIN, MAX
   };
 
-  public void insert(int value);
+  public void insert( int value );
 
   public int deleteTop();
 
-  public void heapify(int[] values);
+  public void heapify( int[] values );
 
   public void print();
 
